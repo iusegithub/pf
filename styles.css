@@ -5,31 +5,50 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    font-size: 14px;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
 header {
-    background: #333;
-    color: #fff;
     padding: 1rem 0;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
-header h1,
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
 header p {
-    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    margin-bottom: 1rem;
+}
+
+.contact-info a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.contact-info a:hover {
+    color: #0073b1; /* LinkedIn color as default hover color */
 }
 
 nav ul {
     list-style: none;
-    text-align: center;
     padding: 0;
 }
 
@@ -39,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
@@ -49,21 +68,59 @@ main {
 }
 
 main section {
-    margin-bottom: 40px;
+    margin: 60px 0 40px;  /* Added top margin */
 }
 
 main h2 {
     color: #333;
-    margin-bottom: 10px;
+    margin: 40px 0 10px;  /* Added top margin */
     font-size: 24px;
     border-bottom: 2px solid #333;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 30px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.job .company {
+    display: flex;
+    align-items: center;
+}
+
+.job .company-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 .job h3 {
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+.job .location {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.job .date {
+    font-style: italic;
+    color: #777;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .skills-grid {
