@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const companies = {
     "racing-victoria-logo": "racingvictoria.com.au",
     "racing-victoria-logo-2": "racingvictoria.com.au",
+    "flow-logo": "proflow.ai",
     "ey-logo": "ey.com",
     "dxc-logo": "dxc.technology",
     "harvey-norman-logo": "harveynorman.com.au",
