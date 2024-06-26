@@ -42,11 +42,19 @@
         <h1 class="text-5xl font-semibold mb-2">Haris Ashraf</h1>
         <p class="text-2xl text-gray-600 mb-4">Consultant and Full Stack Engineer</p>
         <nav class="contact-info flex justify-center space-x-4" aria-label="Contact information">
-            <a href="https://www.linkedin.com/in/haris-ashraf/" target="_blank" class="text-gray-600 hover:text-linkedin transition" aria-label="LinkedIn profile"><i class="fab fa-linkedin text-3xl"></i></a>
-            <a href="https://github.com/iusegithub" target="_blank" class="text-gray-600 hover:text-github transition" aria-label="GitHub profile"><i class="fab fa-github text-3xl"></i></a>
-            <a href="https://www.instagram.com/whatsallthehype1/" target="_blank" class="text-gray-600 hover:text-instagram transition" aria-label="Instagram profile"><i class="fab fa-instagram text-3xl"></i></a>
-            <a href="mailto:harisashraf1@live.com" target="_blank" class="text-gray-600 hover:text-email transition" aria-label="Send email"><i class="fas fa-envelope text-3xl"></i></a>
-        </nav>
+          <a href="https://www.linkedin.com/in/haris-ashraf/" target="_blank" class="text-gray-600 hover:text-linkedin transition" aria-label="LinkedIn profile" onclick="gtag('event', 'click', {'event_category': 'Social Link', 'event_label': 'LinkedIn'});">
+              <i class="fab fa-linkedin text-3xl"></i>
+          </a>
+          <a href="https://github.com/iusegithub" target="_blank" class="text-gray-600 hover:text-github transition" aria-label="GitHub profile" onclick="gtag('event', 'click', {'event_category': 'Social Link', 'event_label': 'GitHub'});">
+              <i class="fab fa-github text-3xl"></i>
+          </a>
+          <a href="https://www.instagram.com/whatsallthehype1/" target="_blank" class="text-gray-600 hover:text-instagram transition" aria-label="Instagram profile" onclick="gtag('event', 'click', {'event_category': 'Social Link', 'event_label': 'Instagram'});">
+              <i class="fab fa-instagram text-3xl"></i>
+          </a>
+          <a href="mailto:harisashraf1@live.com" target="_blank" class="text-gray-600 hover:text-email transition" aria-label="Send email" onclick="gtag('event', 'click', {'event_category': 'Social Link', 'event_label': 'Email'});">
+              <i class="fas fa-envelope text-3xl"></i>
+          </a>
+      </nav>
     </div>
 </header>
 
@@ -87,7 +95,7 @@
         <div class="job mb-12">
             <div class="job-header flex flex-wrap justify-between items-center">
                 <div class="company flex items-center mb-4 sm:mb-0">
-                    <a href="https://www.racingvictoria.com.au/" target="_blank"><img id="racing-victoria-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/rv.png" alt="Racing Victoria Logo"></a>
+                    <a href="https://www.racingvictoria.com.au/" target="_blank"><img id="racing-victoria-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/rv.png" alt="Racing Victoria Logo" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'Racing Victoria'});"></a>
                     <div class="company-details">
                         <h3 class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-xl font-medium">Senior Software Developer at Racing Victoria</h3>
                     </div>
@@ -106,7 +114,7 @@
         <div class="job mb-12">
             <div class="job-header flex flex-wrap justify-between items-center">
                 <div class="company flex items-center mb-4 sm:mb-0">
-                    <a href="https://www.racingvictoria.com.au/" target="_blank"><img id="racing-victoria-logo-2" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/rv.png" alt="Racing Victoria Logo"></a>
+                    <a href="https://www.racingvictoria.com.au/" target="_blank"><img id="racing-victoria-logo-2" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/rv.png" alt="Racing Victoria Logo" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'Racing Victoria'});"></a>
                     <div class="company-details">
                         <h3 class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-xl font-medium">Full Stack Software Engineer at Racing Victoria</h3>
                     </div>
@@ -122,7 +130,7 @@
         <div class="job mb-12">
             <div class="job-header flex flex-wrap justify-between items-center">
                 <div class="company flex items-center mb-4 sm:mb-0">
-                    <a href="https://www.proflow.ai/" target="_blank"><img id="flow-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/proflow.png" alt="Flow Logo"></a>
+                    <a href="https://www.proflow.ai/" target="_blank"><img id="flow-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/proflow.png" alt="Flow Logo" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'Proflow AI'});"></a>
                     <div class="company-details">
                         <h3 class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-xl font-medium">Full Stack Engineer at Flow</h3>
                     </div>
@@ -132,15 +140,15 @@
             <p class="location italic mb-2">Remote</p>
             <ul class="list-disc pl-5 space-y-1 text-lg">
                 <li>Side projects I worked on in spare time:</li>
-                <li><a href="https://www.proflow.ai/" target="_blank" class="text-blue-500">https://www.proflow.ai/</a></li>
-                <li><a href="https://flyr.au/" target="_blank" class="text-blue-500">https://flyr.au/</a></li>
+                <li><a href="https://www.proflow.ai/" target="_blank" class="text-blue-500" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'Proflow AI'});">https://www.proflow.ai/</a></li>
+                <li><a href="https://flyr.au/" target="_blank" class="text-blue-500" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'Flyer.au'});">https://flyr.au/</a></li>
                 <li>Tech stack - ReactJS, React Native, Expo, NodeJS, Postgres, AWS Serverless.</li>
             </ul>
         </div>
         <div class="job mb-12">
             <div class="job-header flex flex-wrap justify-between items-center">
                 <div class="company flex items-center mb-4 sm:mb-0">
-                    <a href="https://www.ey.com/en_au" target="_blank"><img id="ey-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/ey.png" alt="EY Logo"></a>
+                    <a href="https://www.ey.com/en_au" target="_blank"><img id="ey-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/ey.png" alt="EY Logo" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'EY'});"></a>
                     <div class="company-details">
                         <h3 class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-xl font-medium">Senior Consultant at EY</h3>
                     </div>
@@ -155,7 +163,7 @@
         <div class="job mb-12">
             <div class="job-header flex flex-wrap justify-between items-center">
                 <div class="company flex items-center mb-4 sm:mb-0">
-                    <a href="https://dxc.com/au/en" target="_blank"><img id="dxc-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/dxc.png" alt="DXC Technology Logo"></a>
+                    <a href="https://dxc.com/au/en" target="_blank"><img id="dxc-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/dxc.png" alt="DXC Technology Logo" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'DXC Technology'});"></a>
                     <div class="company-details">
                         <h3 class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-xl font-medium">Consultant at DXC Technology</h3>
                     </div>
@@ -177,7 +185,7 @@
         <div class="job mb-12">
             <div class="job-header flex flex-wrap justify-between items-center">
                 <div class="company flex items-center mb-4 sm:mb-0">
-                    <img id="harvey-norman-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/hn.png" alt="Harvey Norman Logo">
+                    <img id="harvey-norman-logo" class="company-logo w-16 h-16 sm:w-12 sm:h-12 object-contain mr-4" src="./logos/hn.png" alt="Harvey Norman Logo" onclick="gtag('event', 'click', {'event_category': 'Company Link', 'event_label': 'Harvey Norman'});">
                     <div class="company-details">
                         <h3 class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-xl font-medium">Harvey Norman Graduate</h3>
                     </div>
